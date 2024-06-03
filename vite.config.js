@@ -32,7 +32,7 @@ export default defineConfig(({ command }) => {
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/repository-name/',
+  base: '/goit-js-hw-09/',
   build: {
     outDir: 'dist'
   }
