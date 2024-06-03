@@ -28,3 +28,12 @@ export default defineConfig(({ command }) => {
     plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
   };
 });
+
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/repository-name/',
+  build: {
+    outDir: 'dist'
+  }
+});
